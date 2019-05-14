@@ -2,17 +2,28 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Data Lovers</title>
+    <header>LEAGUE OF LEGENDS</header>
+    <title>League of Legends</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <!-- <script src="./data/injuries/injuries.js"></script> -->
-    <!-- <script src="./data/pokemon/pokemon.js"></script> -->
-    <!-- <script src="./data/steam/steam.js"></script> -->
-    <!-- <script src="./data/worldbank/worldbank.js"></script> -->
-    <!-- <script src="./data/lol/lol.js"></script> -->
+    <div class="container">
+      <select name="filtrar" id="">}
+        <option value="0">Filtrar por tipo de jugador</option>
+        <option value="Assassin">Assassin</option>
+        <option value="Fighter">Fighter</option>
+        <option value="Mage">Mage</option>
+        <option value="Marksman">Marksman</option>
+        <option value="Support">Support</option>
+        <option value="Tank">Tank</option>
+
+      </select>
+      <div id="root"></div>
+
+    </div>
+    <script src="./data/lol/lol.js"></script>
     <script src="data.js"></script>
     <script src="main.js"></script>
+    <script src="style.css"></script>
   </body>
 </html>

@@ -1,1 +1,3 @@
-/* Manejo del DOM */
+const container = document.getElementById("root");
+
+
